@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="PE解析">
+      <UniqueIdentifier>{b2e0d233-f5d1-417e-8ba0-24926b602423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="垃圾清理、VS工程清理">
+      <UniqueIdentifier>{93a5348c-ecb9-4203-bc75-0c8fdae9b004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="杀毒">
+      <UniqueIdentifier>{b3fa76b2-bc5c-4a86-9827-d00d22d7a5b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="线程、进程、模块、窗口">
+      <UniqueIdentifier>{508b499e-30f9-405a-a94c-465f683baf3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="公用">
+      <UniqueIdentifier>{42dfb001-9a20-4ef3-a32d-f2c7baecc9d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="文件、服务">
+      <UniqueIdentifier>{847fd661-13f6-4379-8d76-d8897604c45b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="文件、服务\头文件">
+      <UniqueIdentifier>{3a5b46b4-1b7a-4ab8-995c-c32d9697c930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="文件、服务\源文件">
+      <UniqueIdentifier>{7499c099-3074-4f9b-b215-b5a04d43e696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="公用\头文件">
+      <UniqueIdentifier>{69a47f3e-693e-4bea-ad8f-0aa2a85f9ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="公用\源文件">
+      <UniqueIdentifier>{5e7b8399-d639-451e-918b-21aa47206838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="线程、进程、模块、窗口\头文件">
+      <UniqueIdentifier>{6b9ba072-b82a-4336-bf17-57c572cf82b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="线程、进程、模块、窗口\源文件">
+      <UniqueIdentifier>{79756aa1-1da2-42ed-8d00-9a4c6f7115c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="杀毒\头文件">
+      <UniqueIdentifier>{4e76572d-06b5-40bc-85a9-ed8fff3ee22d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="杀毒\源文件">
+      <UniqueIdentifier>{ed434477-2c3c-4354-9ece-8a05be64dc60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="垃圾清理、VS工程清理\头文件">
+      <UniqueIdentifier>{7be60e0b-83e8-4697-b840-e54d846d2eac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="垃圾清理、VS工程清理\源文件">
+      <UniqueIdentifier>{7b0e0f18-46f3-4382-9d01-f345b7256bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PE解析\头文件">
+      <UniqueIdentifier>{dec81832-122b-4f24-8eb2-fb665656d661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PE解析\源文件">
+      <UniqueIdentifier>{cb2ea567-981b-48e0-acb8-eab41f6f48d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="safe.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="safeDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfo.h">
+      <Filter>文件、服务\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceDlg.h">
+      <Filter>文件、服务\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>公用\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5_FILE.h">
+      <Filter>公用\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyListCtrl.h">
+      <Filter>公用\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTabCtrl.h">
+      <Filter>公用\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleDlg.h">
+      <Filter>线程、进程、模块、窗口\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessDlg.h">
+      <Filter>线程、进程、模块、窗口\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadDlg.h">
+      <Filter>线程、进程、模块、窗口\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WinDlg.h">
+      <Filter>线程、进程、模块、窗口\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="KillVirusDlg.h">
+      <Filter>杀毒\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessDatabase.h">
+      <Filter>杀毒\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirusDatabaseDlg.h">
+      <Filter>杀毒\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VirusManage.h">
+      <Filter>杀毒\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CleanDlg.h">
+      <Filter>垃圾清理、VS工程清理\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VSCleanDlg.h">
+      <Filter>垃圾清理、VS工程清理\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataDirectoryDlg.h">
+      <Filter>PE解析\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DelayImportDlg.h">
+      <Filter>PE解析\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportDlg.h">
+      <Filter>PE解析\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportDlg.h">
+      <Filter>PE解析\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PEDlg.h">
+      <Filter>PE解析\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PeInfo.h">
+      <Filter>PE解析\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RelocateDlg.h">
+      <Filter>PE解析\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceDlg.h">
+      <Filter>PE解析\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SectionTableDlg.h">
+      <Filter>PE解析\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TLSDlg.h">
+      <Filter>PE解析\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ROAtoFOA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="safe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="safeDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInfo.cpp">
+      <Filter>文件、服务\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceDlg.cpp">
+      <Filter>文件、服务\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>公用\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5_FILE.cpp">
+      <Filter>公用\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyListCtrl.cpp">
+      <Filter>公用\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTabCtrl.cpp">
+      <Filter>公用\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleDlg.cpp">
+      <Filter>线程、进程、模块、窗口\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessDlg.cpp">
+      <Filter>线程、进程、模块、窗口\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadDlg.cpp">
+      <Filter>线程、进程、模块、窗口\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WinDlg.cpp">
+      <Filter>线程、进程、模块、窗口\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="KillVirusDlg.cpp">
+      <Filter>杀毒\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessDatabase.cpp">
+      <Filter>杀毒\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirusDatabaseDlg.cpp">
+      <Filter>杀毒\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VirusManage.cpp">
+      <Filter>杀毒\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CleanDlg.cpp">
+      <Filter>垃圾清理、VS工程清理\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VSCleanDlg.cpp">
+      <Filter>垃圾清理、VS工程清理\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataDirectoryDlg.cpp">
+      <Filter>PE解析\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DelayImportDlg.cpp">
+      <Filter>PE解析\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportDlg.cpp">
+      <Filter>PE解析\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportDlg.cpp">
+      <Filter>PE解析\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PEDlg.cpp">
+      <Filter>PE解析\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PeInfo.cpp">
+      <Filter>PE解析\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RelocateDlg.cpp">
+      <Filter>PE解析\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceDlg.cpp">
+      <Filter>PE解析\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SectionTableDlg.cpp">
+      <Filter>PE解析\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TLSDlg.cpp">
+      <Filter>PE解析\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ROAtoFOA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="safe.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\safe.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\safe.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
